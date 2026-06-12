@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/hfp/{{ name }}/archive/{{ version }}.tar.gz
+  url: https://github.com/{{ name }}/{{ name }}/archive/{{ version }}.tar.gz
   sha256: 8b642127880e92e8a75400125307724635ecdf4020ca4481e5efe7640451bb92
 
 build:
