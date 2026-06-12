@@ -10,7 +10,7 @@ source:
   sha256: 8b642127880e92e8a75400125307724635ecdf4020ca4481e5efe7640451bb92
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
   run_exports:
     - {{ pin_subpackage('libxsmm', max_pin='x') }}
@@ -49,8 +49,8 @@ about:
   summary: Library targeting Intel Architecture for specialized dense and sparse matrix operations, and deep learning primitives.
 
   description: |
-    LIBXSMM is a library for specialized dense and sparse matrix operations 
-    as well as for deep learning primitives such as small convolutions 
+    LIBXSMM is a library for specialized dense and sparse matrix operations
+    as well as for deep learning primitives such as small convolutions
     targeting Intel Architecture.
   doc_url: https://libxsmm.readthedocs.io
   dev_url: https://github.com/hfp/libxsmm
