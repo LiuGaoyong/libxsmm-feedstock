@@ -10,8 +10,8 @@ source:
   sha256: 8b642127880e92e8a75400125307724635ecdf4020ca4481e5efe7640451bb92
 
 build:
-  number: 1
-  skip: true  # [win]
+  number: 2
+  skip: true  # [win or aarch64 or ppc64le or osx-arm64]
   run_exports:
     - {{ pin_subpackage('libxsmm', max_pin='x') }}
 
